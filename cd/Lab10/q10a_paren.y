@@ -29,4 +29,8 @@ int main() {
     return 0;
 }
 
-
+/*anushka@anushka-hp:~$ lex lab.l
+anushka@anushka-hp:~$ yacc lab.y
+anushka@anushka-hp:~$ gcc lex.yy.c y.tab.c -o lab -lfl -w
+anushka@anushka-hp:~$ ./lab
+*/
